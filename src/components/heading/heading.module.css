@@ -1,0 +1,11 @@
+.text5xl {
+  font-size: 24px;
+}
+
+.textCyan {
+  color: hsl(178 82% 44%);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
