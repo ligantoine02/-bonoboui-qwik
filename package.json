@@ -1,5 +1,5 @@
 {
-	"name": "@bonoboui/qwik",
+	"name": "bonoboui-qwik",
 	"version": "0.0.1",
 	"description": "BonoboUI Qwik library",
 	"main": "./lib/index.qwik.mjs",
