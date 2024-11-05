@@ -1,6 +1,5 @@
 import { component$, type PropsOf, Slot } from "@builder.io/qwik";
 import { css } from "../../styled-system/css";
-import { stack } from "../../styled-system/patterns";
 import { Stack } from "../../styled-system/jsx";
 
 export interface CardProps extends PropsOf<"div"> {
