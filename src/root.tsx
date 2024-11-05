@@ -2,6 +2,8 @@ import { Card } from "./components/card/card";
 import { Counter } from "./components/counter/counter";
 import { Heading } from "./components/heading/heading";
 import { Logo } from "./components/logo/logo";
+import { css } from "./styled-system/css";
+import "./global.css";
 
 export default () => {
 	return (
@@ -13,9 +15,11 @@ export default () => {
 			<body>
 				<Logo />
 				<Counter />
-				<Card horizontal>
-					<Heading>First heading of BonoboUI</Heading>
-				</Card>
+				<div>
+					<Card horizontal>
+						<Heading>First heading of BonoboUI</Heading>
+					</Card>
+				</div>
 			</body>
 		</>
 	);
